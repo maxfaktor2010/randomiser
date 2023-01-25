@@ -1,0 +1,11 @@
+import random
+
+# list of items to choose from
+items = ["apple", "banana", "cherry", "date", "elderberry"]
+
+# function to randomly select an item from the list
+def randomizer(items):
+    return random.choice(items)
+
+# test the function
+print(randomizer(items))
